@@ -118,7 +118,7 @@ export default function Home() {
               <h2 className="pt-0 pb-5 m-0 text-sm">MARCH 2024 - PRESENT </h2>
               <p className="py-2">
                 Facilitating the development of a cart-sharing feature within
-                Extend Commerce, Codup’s Shopify plugin, using Gadget, to enable
+                Extend Commerce, Codup Shopify plugin, using Gadget, to enable
                 sharing among company employees based on defined roles and
                 permissions
               </p>
