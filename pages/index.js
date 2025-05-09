@@ -14,6 +14,7 @@ import Sports from "../public/Sports.png";
 import Insurance from "../public/Insurance.png";
 import Missing from "../public/Missing.png";
 import Trello from "../public/Trello.png";
+import dashboard from "../public/dashboard.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -245,8 +246,8 @@ export default function Home() {
                   layout="responsive"
                   src={Missing}
                 />
-                <div class="absolute inset-0  flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                  <p class="text-gray-700 text-lg font-semibold p-4 text-center">
+   <div className="absolute inset-0 flex items-center justify-center bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out p-4">
+      <p className="text-gray-800 text-sm sm:text-base font-medium text-center overflow-y-auto max-h-[70%]">
                     The <b> Missing Object Detector </b> utilizes YOLO for image
                     localization and object detection within a room. The system
                     generates accurate bounding boxes around identified objects,
@@ -258,7 +259,7 @@ export default function Home() {
                     DEMO AVAILABLE ON GITHUB
                     <br />
                     <br />
-                    DJANGO, PYTHON, HTML, CSS, JAVASCRIPT, SQLITE
+                    <b>DJANGO, PYTHON, HTML, CSS, JAVASCRIPT, SQLITE</b>
                   </p>
                 </div>
               </a>
@@ -278,8 +279,8 @@ export default function Home() {
                   layout="responsive"
                   src={Sports}
                 />
-                <div class="absolute inset-0  flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                  <p class="text-gray-700 text-lg font-semibold p-4 text-center">
+   <div className="absolute inset-0 flex items-center justify-center bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out p-4">
+      <p className="text-gray-800 text-sm sm:text-base font-medium text-center overflow-y-auto max-h-[70%]">
                     The <b>Sports App </b> displays upcoming match schedules and
                     past match results, offering users a seamless way to stay
                     updated. The app includes features for filtering and sorting
@@ -289,7 +290,7 @@ export default function Home() {
                     DEMO AVAILABLE ON GITHUB
                     <br />
                     <br />
-                    DJANGO, PYTHON, HTML, CSS, JAVASCRIPT, SQLITE
+                    <b>DJANGO, PYTHON, HTML, CSS, JAVASCRIPT, SQLITE</b>
                   </p>
                 </div>
               </a>
@@ -309,8 +310,8 @@ export default function Home() {
                   layout="responsive"
                   src={Insurance}
                 />
-                <div class="absolute inset-0  flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                  <p class="text-gray-700 text-lg font-semibold p-4 text-center">
+   <div className="absolute inset-0 flex items-center justify-center bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out p-4">
+      <p className="text-gray-800 text-sm sm:text-base font-medium text-center overflow-y-auto max-h-[70%]">
                     Our <b>Insurance CRM</b> simplifies the device insurance
                     process by automating product setup, policy creation, and
                     premium calculation, making it accessible to all users. It
@@ -322,7 +323,7 @@ export default function Home() {
                     <br />
                     <br />
                     <br />
-                    REACT JS, EXPRESS JS, SQL
+                    <b>REACT JS, EXPRESS JS, SQL</b>
                   </p>
                 </div>
               </a>
@@ -342,39 +343,58 @@ export default function Home() {
                   layout="responsive"
                   src={Trello}
                 />
-                <div class="absolute inset-0  flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                  <p class="text-gray-700 text-lg font-semibold p-4 text-center">
+   <div className="absolute inset-0 flex items-center justify-center bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out p-4">
+      <p className="text-gray-800 text-sm sm:text-base font-medium text-center overflow-y-auto max-h-[70%]">
                     <b> Sample Trello App </b> is a to-do list app with
                     drag-and-drop support, allowing users to create, edit,
                     delete, and manage tasks easily. It uses Zustand for state
                     management and React Query for real-time data handling.
                     <br />
                     <br />
-                    REACT, ZUSTAND, REACT QUERY, JAVASCRIPT
+                    <b>REACT, ZUSTAND, REACT QUERY, JAVASCRIPT</b>
                   </p>
                 </div>
               </a>
             </div>
+            </div>
+ <div className="flex justify-center items-center px-4 py-8">
+  <a
+    href="https://github.com/AahilAshiqAli/Expense-Frontend"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="relative w-full max-w-md md:max-w-lg lg:max-w-2xl rounded-xl overflow-hidden group"
+  >
+    <Image
+      className="rounded-xl object-cover object-top w-full h-auto transition duration-300 ease-in-out group-hover:blur-sm group-hover:opacity-50"
+      layout="responsive"
+      src={dashboard}
+      alt="dashboard"
+    />
+    <div className="absolute inset-0 flex items-center justify-center bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out p-4">
+      <p className="text-gray-800 text-sm sm:text-base font-medium text-center overflow-y-auto max-h-[70%]">
+                  <b>Expense Tracker App</b><br /> This project is a robust and optimized Expense Tracker designed with a
+                  focus on performance, clean architecture, and user experience. It offers rich features such as monthly
+                  spending breakdowns by category with intuitive graphs, custom budget categories with spending limits,
+                  and a fully paginated transaction history. Users can seamlessly add both expenses and income,
+                  while the app ensures clear distinction between server and client state, relying solely on React
+                  Query without any state management libraries like Zustand. Every error is gracefully handled,
+                  including a dedicated error page, and the application supports multiple users with secure
+                  login functionality, storing tokens in localStorage and validating them continuously through a me API.
+                  All routes are protected, ensuring data privacy and session integrity. The backend follows a clean,
+                  scalable structure embracing Separation of Concerns through a well-defined flow:
+                  <br/>
+                  <b>Routes → Middleware → Controllers → Services → Repositories → Models</b>
+                  <br/>
+                  leveraging OOP principles and the Repository Pattern to encapsulate business logic and data access. This setup reflects modern best practices, modularity, and long-term maintainability.
+        <br />
+        <br />
+        <b>REACT, REACT QUERY, TYPESCRIPT, EXPRESS, REPOSITORY ARCHITECTURE, MONGODB</b>
+      </p>
+    </div>
+  </a>
+</div>
 
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web5}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web6}
-              />
-            </div>
-          </div>
+
         </section>
       </main>
     </div>
