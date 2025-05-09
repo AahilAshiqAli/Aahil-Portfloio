@@ -165,7 +165,7 @@ export default function Home() {
                 discussions with the heads of various departments to thoroughly
                 understand their specific needs and the underlying business
                 logic, ensuring that the CRM solution would effectively address
-                the company's operational goals and enhance cross-departmental
+                the company operational goals and enhance cross-departmental
                 collaboration.
               </p>
               <h4 className="pt-4 text-teal-600">Skills Learned</h4>
